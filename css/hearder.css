@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+
+/*헤더영역************************************************/
+
+header {
+    width: 100%;
+
+    /*background-color: aqua;*/
+}
+
+header>h1 {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+
+    text-indent: -9999px;
+
+}
+
+header>h1>a {
+    margin: 0 auto;
+    width: 143px;
+    height: 81px;
+    display: block;
+    background-image: url(../IMG/logo.png);
+    background-repeat: no-repeat;
+}
+
+header>nav {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header>nav>ul {
+    width: 100%;
+}
+
+header>nav>ul>li {
+    float: left;
+    width: 20%;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: relative;
+
+}
+
+header>nav>ul>li>a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -20px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #1f2b6f;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+header>nav>ul>li>a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+header>nav>ul>li:last-child>a:hover:after {
+    display: none;
+}
+
+
+
+
+
+header>nav>ul>li:last-child>a {
+    margin: auto;
+    display: block;
+    width: 72px;
+    height: 27px;
+    border: 2px solid #ff3f00;
+    color: #ff3f00;
+}
+
+header>nav>ul>li:last-child:hover a {
+
+    color: white;
+    background-color: #ff3f00;
+}
+
+header>nav>ul>li>a {
+
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 18.5px;
+    font-weight: 450;
+    letter-spacing: -1.6px;
+    color: #1a1c1f;
+    position: relative;
+}
+
+/*헤더영역**********************************************/

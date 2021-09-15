@@ -1,0 +1,620 @@
+@charset "utf-8";
+
+main {
+    width: 100%;
+    margin-bottom: 120px;
+    background-image: url(../IMG/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstcontent_banner {
+    position: relative;
+    width: 1280px;
+    height: 752px;
+    margin: 0 auto;
+}
+
+.orionvskt {
+    position: absolute;
+    top: 320px;
+}
+
+.orionvskt>p {
+    font-size: 24px;
+    color: white;
+    font-family: 'Poppins',
+        sans-serif;
+    margin-bottom: 30px;
+
+}
+
+.ticket_txt {
+    display: block;
+    width: 250.73px;
+    height: 60.53px;
+    margin-top: 35px;
+    border: 2px solid white;
+    line-height: 60.53px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+/*투명도 배경색 여쭤보기*/
+.ticket_txt:hover::after {
+
+    content: "예매하기";
+    font-size: 18px;
+    font-family: 'Noto Sans KR',
+        sans-serif;
+
+
+
+}
+
+
+
+.ticket_txt:hover {
+    font-size: 0;
+
+}
+
+/*허훈 이대성 페이지실행시 페이드인효고과ㅣ*/
+.leedeasung {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 410px;
+}
+
+.heohoon {
+    position: absolute;
+    top: 30px;
+    left: 733px;
+    display: none;
+}
+
+/*메인디자인***********************************************************/
+
+
+/*스코어랭크디자인*****************************************************/
+section {
+    width: 100%;
+}
+
+.scorerank_bg {
+    width: 100%;
+    background-image: url(../IMG/scorerankbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scorerank_wrap {
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.lagunah {
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+
+.first_banner_score {
+    float: right;
+    width: 52%;
+    margin-top: 180px;
+}
+
+.score_txt {
+    width: 100%;
+}
+
+.score1 {
+    height: 105px;
+    overflow: hidden;
+    border-bottom: 1px solid #373131;
+}
+
+.score1>li {
+    height: 100%;
+}
+
+.day {
+    padding-top: 15px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #e8e8e9;
+    float: left;
+    padding-left: 10px;
+}
+
+.day>span {
+    font-family: 'Poppins',
+        sans-serif;
+    display: block;
+    width: 100%;
+    font-size: 30px;
+}
+
+.score {
+    font-family: 'Poppins',
+        sans-serif;
+    color: #e8e8e9;
+    float: right;
+    font-size: 70px;
+}
+
+.score2 {
+    height: 105px;
+    overflow: hidden;
+    border-bottom: 1px solid #373131;
+}
+
+.score2>li {
+    width: 100%;
+    height: 100%;
+}
+
+.first_banner_rank {
+    margin-top: 150px;
+    float: right;
+    width: 52%;
+}
+
+.rank_txt {
+    width: 100%;
+}
+
+.rankbox {
+    width: 100%;
+    height: 500px;
+    background-color: #e6e6e6;
+    margin-top: 30px;
+    margin-bottom: 78px;
+    border-radius: 13px;
+}
+
+.rankbox>ul {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.rankbox>ul>li {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #78787e;
+
+}
+
+
+
+.rank {
+    font-size: 21px;
+    color: #91919b;
+    float: left;
+    padding: 25px;
+}
+
+/*********이미지 비율 맞추기 위한 선택자*****************/
+.img_an {
+    margin-left: 10px;
+
+}
+
+.img_in {
+    margin-left: 10px;
+}
+
+.img_sam {
+    margin-top: 20px;
+
+}
+
+.img_db {
+    margin-left: 10px;
+}
+
+/*********이미지 비율 맞추기 위한 선택자*****************/
+.rankbox>ul>li>img {
+    float: left;
+    padding: 10px;
+
+}
+
+.teme_name {
+    width: 130px;
+    margin: auto;
+    display: block;
+    font-family: 'Noto Sans KR',
+        sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 10px;
+
+
+}
+
+.teme_name>span {
+    display: block;
+    font-size: 22px;
+    color: #91919b;
+}
+
+/***스코어랭크디자인***************************************************************/
+.flowbanner {
+    width: 100%;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../IMG/hilightfontline.png);
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.flowbanner>ul {
+    width: 120%;
+    position: relative;
+    left: 0;
+}
+
+.flowbanner>ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.flowbanner>ul>li {
+    width: 14.28571428571429%;
+    padding: 10px 0;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+
+/***하이라이트 디자인*******************************/
+.highligth_wrap {
+    background-image: url(../IMG/hirghtbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 50px;
+}
+
+/* .flowbanner {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../IMG/homeimg/sconde_banner/hilightfontline.png);
+}
+ */
+
+.gifimg_warp {
+    width: 1280px;
+    margin: auto;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5));
+
+}
+
+.gifimg_warp>div img {
+    float: left;
+    width: 100%;
+    height: 100%;
+
+}
+
+.gifimg_warp>div {
+
+
+    float: left;
+    width: 33.33%;
+    height: 760px;
+    background-color: blue;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.gifimg_warp>div:nth-child(2) {
+    margin-top: 300px;
+
+}
+
+.gifimg_warp>div:hover .gif1 {
+    display: block;
+}
+
+.gifimg_warp>div:hover .gif2 {
+    display: none;
+}
+
+.gif1 {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.gif2 {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*테두리 디자인 가능한지 질문 */
+
+
+
+/***하이라이트 디자인*******************************/
+/*********팔로우디자인******************/
+.followwrap {
+
+
+    height: 500px;
+    width: 100%;
+    background-image: url(../IMG/gunahba.png);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: 0px -780px; */
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+.followyoutube {
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 52px;
+    letter-spacing: 1.2;
+
+
+}
+
+.followwrap>a {
+
+    position: absolute;
+    transform: translate(-50%, -70%);
+    left: 50%;
+    top: 70%;
+
+
+    text-align: center;
+    line-height: 60px;
+    display: block;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    border: 1px solid white;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+.followwrap>a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/*********팔로우디자인******************/
+
+
+/*************뉴스디자인*********************/
+.newsbg {
+    width: 100%;
+    background-color: #eaebef;
+}
+
+.newswrap {
+    width: 1280px;
+    margin: auto;
+    padding-bottom: 70px;
+
+}
+
+.newsimg {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.news_box {
+    position: relative;
+    width: 100%;
+    border-top: 1.5px solid #91919b;
+    padding: 10px;
+}
+
+.news_box:last-child {
+    border-bottom: 1.5px solid #91919b;
+
+}
+
+
+
+
+.news_box>img {
+    float: left;
+}
+
+.newstxt_box {
+    float: left;
+    padding-left: 100px;
+}
+
+.news_box>a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 24px;
+    font-family: 'Poppins',
+        sans-serif;
+    color: #1a1c1f;
+    float: right;
+
+}
+
+.news_box>a:hover {
+    font-weight: bold;
+    color: #ff3f00;
+}
+
+.news1 {
+    font-size: 18.5px;
+    font-family: 'Poppins',
+        sans-serif;
+    margin-bottom: 50px;
+    color: #1a1c1f;
+
+}
+
+.news2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: 'Noto Sans KR',
+        sans-serif;
+    color: #1a1c1f;
+
+
+}
+
+.news3 {
+    font-size: 18.5px;
+    font-family: 'Noto Sans KR',
+        sans-serif;
+    color: #1a1c1f;
+
+
+}
+
+/*************뉴스디자인*********************/
+/*************상점디자인*********************/
+.shopbg {
+    width: 100%;
+    background-color: #1a1c1f;
+}
+
+.shop_warp {
+    width: 1280px;
+    margin: auto;
+    padding: 50px 0px;
+
+}
+
+.shop_warp>img {
+    margin-bottom: 40px;
+}
+
+.shop_warp>ul {
+    width: 100%;
+}
+
+.shop_warp>ul>li {
+    width: 25%;
+    float: left;
+    border-left: 1px solid #e8e8e9;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.shophed {
+    color: white;
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+
+}
+
+.product {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #e8e8e9;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.price {
+    font-size: 22px;
+    font-family: 'Poppins',
+        sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+.ballimg {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+
+}
+
+.ballimg>a>img {
+    border-radius: 20px;
+
+
+}
+
+.ballimg>a>img:hover {
+    transform: rotate(20deg);
+}
+
+.shownow {
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    display: block;
+    width: 250px;
+    height: 60px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 90px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 22px;
+}
+
+.shownow:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+/*************상점디자인*********************/
+
+
+
+
+
+/************섹션끝*********************/

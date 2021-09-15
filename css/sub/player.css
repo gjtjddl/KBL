@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+section {
+    width: 100%;
+
+}
+
+.main_player {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.player_main {
+    width: 100%;
+    background-color: #1a1c1f;
+    padding: 30px 0px;
+}
+
+.player_main h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+.player_gnb {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.player_gnb ul {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.player_gnb ul li {
+    float: left;
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.player_gnb ul li a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #ff6b3a;
+    transition: width 0.3s ease 0s,
+        left 0.3s ease 0s;
+    width: 0;
+}
+
+.player_gnb ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.player_gnb ul li a {
+    font-size: 15px;
+    color: #373131;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+.player_wrap {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.player_box {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.player_img {
+    float: left;
+}
+
+.player_img img {
+    display: block;
+}
+
+.player_txt {
+    float: left;
+    height: 426px;
+    position: relative;
+    margin-left: 150px;
+}
+
+.singimg {
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    z-index: -999;
+}
+
+.teamname {
+    display: block;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.player {
+    font-size: 24px;
+    font-family: 'Noto Sans KR',
+        sans-serif;
+    letter-spacing: -0.8px;
+    padding: 30px 0px 30px;
+}
+
+.player_score {
+    width: 100%;
+
+}
+
+.player_score li {
+    font-size: 14px;
+    width: 30%;
+    float: left;
+    line-height: 1.2;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.player_score li span {
+    font-family: 'Poppins',
+        sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    display: block;
+    font-weight: bold;
+}
+
+
+
+
+
+/*선수 선택창***************"*""****"*"**"*/
+.subplayer_wrap {
+    width: 100%;
+}
+
+.subplayer_box {
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.subplayer_box ul {
+    width: 90%;
+    margin: 100px auto;
+
+
+}
+
+.subplayer_box ul li {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 5px;
+
+
+
+
+}
+
+
+
+/* 
+.subplayer_box ul li:nth-child(even) {
+    background-color: #f3bcaa;
+}
+
+.subplayer_box ul li:nth-child(odd) {
+    background-color: #5b659e;
+} */
+
+
+.subplayer_box ul li img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.subplayer_box ul li:hover img {
+    opacity: 0.5;
+}
+
+.left_arow {
+    display: block;
+    position: absolute;
+    left: px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right_arow {
+    display: block;
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+}

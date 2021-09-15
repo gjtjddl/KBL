@@ -1,0 +1,75 @@
+footer {
+    width: 100%;
+
+    background-color: black;
+}
+
+.footer_warp {
+    width: 1280px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer_left {
+    width: 50%;
+
+    float: left;
+}
+
+.footer_logo {
+    text-indent: -9999px;
+}
+
+.footer_logo>a {
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 60px;
+    display: block;
+    background-image: url(../IMG/KBL_footer.png);
+}
+
+.footer_txt {
+    float: left;
+    width: 50%;
+
+}
+
+.sns_icon {
+    margin-top: 60px;
+}
+
+.sns_icon>ul>li {
+    float: left;
+    padding: 5px;
+
+}
+
+.footer_txt>ul {
+    width: 100%;
+}
+
+.footer_txt>ul>li {
+    float: left;
+    width: 50%;
+
+}
+
+.footer_txt>ul>li>a {
+    font-size: 18.5px;
+    color: #878687;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+.footer_txt>p {
+    color: #878687;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer_txt>p>span {
+    font-size: 12px;
+    display: block;
+
+}
